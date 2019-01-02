@@ -1,0 +1,32 @@
+{
+	"name": "svg.to.img",
+	"version": "1.0.0",
+	"description": "",
+	"license": "MIT",
+	"main": "index.js",
+	"devDependencies": {
+		"eslint": "5.11.1",
+		"eslint-config-basic": "git+ssh://git@github.com/anzerr/eslintrc.git"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
+	"dependencies": {
+		"fs.promisify": "git+ssh://git@github.com:anzerr/fs.promisify.git",
+		"canvas": "2.2.0",
+		"canvg": "1.5.3"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"types": "index.d.ts",
+	"author": "anzerr",
+	"bugs": {
+		"url": "https://github.com/anzerr/svg.to.img/issues"
+	},
+	"homepage": "https://github.com/anzerr/svg.to.img#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anzerr/svg.to.img.git"
+	}
+}
