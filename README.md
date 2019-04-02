@@ -3,7 +3,7 @@ convert svg to png or jpg using canvas
 
 #### `Install`
 ``` bash
-npm install --save git+http://git@github.com/anzerr/svg.to.img.git
+npm install --save git+https://git@github.com/anzerr/svg.to.img.git
 ```
 
 

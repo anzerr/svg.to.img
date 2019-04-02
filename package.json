@@ -6,13 +6,13 @@
 	"main": "index.js",
 	"devDependencies": {
 		"eslint": "5.11.1",
-		"eslint-config-basic": "git+http://git@github.com/anzerr/eslintrc.git"
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
 	},
 	"dependencies": {
-		"fs.promisify": "git+ssh://git@github.com:anzerr/fs.promisify.git",
+		"fs.promisify": "git+https://git@github.com/anzerr/fs.promisify.git",
 		"canvas": "2.2.0",
 		"canvg": "1.5.3"
 	},
