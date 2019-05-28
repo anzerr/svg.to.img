@@ -7,7 +7,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/anzerr/svg.to.img.git"
+		"url": "git@github.com:anzerr/svg.to.img.git"
 	},
 	"license": "MIT",
 	"author": "anzerr",
