@@ -1,13 +1,18 @@
 {
 	"name": "svg.to.img",
 	"version": "1.0.0",
-	"description": "",
-	"license": "MIT",
-	"main": "index.js",
-	"devDependencies": {
-		"eslint": "5.11.1",
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	"homepage": "https://github.com/anzerr/svg.to.img#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/svg.to.img/issues"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anzerr/svg.to.img.git"
+	},
+	"license": "MIT",
+	"author": "anzerr",
+	"main": "index.js",
+	"types": "index.d.ts",
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
 	},
@@ -16,17 +21,11 @@
 		"canvas": "2.2.0",
 		"canvg": "1.5.3"
 	},
+	"devDependencies": {
+		"eslint": "5.11.1",
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	},
 	"engines": {
 		"node": ">= 0.10.0"
-	},
-	"types": "index.d.ts",
-	"author": "anzerr",
-	"bugs": {
-		"url": "https://github.com/anzerr/svg.to.img/issues"
-	},
-	"homepage": "https://github.com/anzerr/svg.to.img#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/anzerr/svg.to.img.git"
 	}
 }
