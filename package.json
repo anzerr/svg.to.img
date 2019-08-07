@@ -1,6 +1,6 @@
 {
 	"name": "svg.to.img",
-	"version": "1.0.3",
+	"version": "1.0.5",
 	"homepage": "https://github.com/anzerr/svg.to.img#readme",
 	"bugs": {
 		"url": "https://github.com/anzerr/svg.to.img/issues"
@@ -22,7 +22,6 @@
 		"canvg": "1.5.3"
 	},
 	"devDependencies": {
-		"eslint": "5.11.1",
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
 	"engines": {

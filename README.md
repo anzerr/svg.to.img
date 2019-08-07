@@ -1,3 +1,4 @@
+
 ### `Intro`
 convert svg to png or jpg using canvas
 
@@ -9,7 +10,6 @@ npm install --save @anzerr/svg.to.img
 
 
 ### `Example`
-
 ``` javascript
 const convert = require('svg.to.img'),
 	fs = require('fs.promisify');
