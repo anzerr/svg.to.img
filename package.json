@@ -1,6 +1,6 @@
 {
 	"name": "svg.to.img",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "convert svg to png or jpg using canvas",
 	"keywords": [
 		"canvas",
