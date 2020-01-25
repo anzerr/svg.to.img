@@ -1,21 +1,28 @@
 
-const canvg = require('canvg'),
-	Canvas = require('canvas'),
+const {Canvg, presets} = require('canvg'),
+	canvas = require('canvas'),
+	{DOMParser} = require('xmldom'),
 	http = require('http'),
 	fs = require('fs.promisify'),
 	scale = require('./scale.js'),
 	https = require('https');
 
-console.log(canvg);
+console.log(DOMParser);
+
+const preset = presets.node({
+	DOMParser: DOMParser,
+	canvas: canvas
+});
 
 const util = {
 
 	scale: scale,
 
-	canvas: (svgContent) => {
-		let canvas = Canvas.createCanvas();
-		canvg(canvas, svgContent, {ignoreMouse: true, ignoreAnimation: true, ImageClass: Canvas.Image});
-		return canvas;
+	canvas: (svg, width, height) => {
+		const c = preset.createCanvas(width, height);
+		const ctx = c.getContext('2d');
+		const v = Canvg.fromString(ctx, svg, preset);
+		return v.render().then(() => c);
 	},
 
 	get: (url) => {
