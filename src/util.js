@@ -6,6 +6,8 @@ const canvg = require('canvg'),
 	scale = require('./scale.js'),
 	https = require('https');
 
+console.log(canvg);
+
 const util = {
 
 	scale: scale,

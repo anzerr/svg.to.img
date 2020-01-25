@@ -31,8 +31,8 @@
 	},
 	"dependencies": {
 		"fs.promisify": "git+https://git@github.com/anzerr/fs.promisify.git",
-		"canvas": "2.2.0",
-		"canvg": "1.5.3"
+		"canvas": "^2.6.1",
+		"canvg": "^3.0.4"
 	},
 	"devDependencies": {
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
