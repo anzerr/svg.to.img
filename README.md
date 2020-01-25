@@ -10,7 +10,6 @@ npm install --save git+https://github.com/anzerr/svg.to.img.git
 npm install --save @anzerr/svg.to.img
 ```
 
-
 ### `Example`
 ``` javascript
 const convert = require('svg.to.img'),
