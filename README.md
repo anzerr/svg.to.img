@@ -1,5 +1,7 @@
 
 ### `Intro`
+![GitHub Actions status | publish](https://github.com/anzerr/svg.to.img/workflows/publish/badge.svg)
+
 convert svg to png or jpg using canvas
 
 #### `Install`

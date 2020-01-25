@@ -1,6 +1,15 @@
 {
 	"name": "svg.to.img",
 	"version": "1.0.7",
+	"description": "convert svg to png or jpg using canvas",
+	"keywords": [
+		"canvas",
+		"image",
+		"nodejs",
+		"png",
+		"svg",
+		"util"
+	],
 	"homepage": "https://github.com/anzerr/svg.to.img#readme",
 	"bugs": {
 		"url": "https://github.com/anzerr/svg.to.img/issues"
@@ -13,6 +22,9 @@
 	"author": "anzerr",
 	"main": "index.js",
 	"types": "index.d.ts",
+	"scripts": {
+		"test": "node example.js"
+	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
 	},
