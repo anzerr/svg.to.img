@@ -23,6 +23,7 @@
 	"main": "index.js",
 	"types": "index.d.ts",
 	"scripts": {
+		"linter": "eslint src/*",
 		"test": "node example.js"
 	},
 	"eslintConfig": {
