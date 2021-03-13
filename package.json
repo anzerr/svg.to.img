@@ -31,7 +31,7 @@
 	},
 	"dependencies": {
 		"fs.promisify": "git+https://git@github.com/anzerr/fs.promisify.git",
-		"xmldom": "^0.2.1",
+		"xmldom": "^0.5.0",
 		"canvas": "^2.6.1",
 		"canvg": "^3.0.4"
 	},
